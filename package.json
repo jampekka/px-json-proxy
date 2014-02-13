@@ -1,0 +1,11 @@
+{
+  "name": "px-json-proxy",
+  "description": "hello world test app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "q": "1.x.x",
+    "px": "0.1.x",
+  }
+}
