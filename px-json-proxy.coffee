@@ -27,6 +27,7 @@ geturl = (url, encoding='utf8') ->
 class PxSource
     constructor: (@metadata, @data) ->
         @px = new px.Px @data
+        @metadata.title = @px.metadata.TITLE
         variables = {}
         for variable in @px.variables()
             variables[variable] = @px.values variable
