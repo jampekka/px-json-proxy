@@ -14,7 +14,7 @@ is a more suitable choice.
 To get started, you need the Coffeescript compiler/interpreter and
 `npm`. Install dependencies with `npm install` and launch the server
 with `coffee px-json-proxy.coffee`. There should be something in
-http://localhost:9100/resources.json after that.
+http://localhost:9100/resources after that.
 
 The datasets to export are configured in `data-sources.json` and
 server configuration (ie port number) is in `config.json`.
