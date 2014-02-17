@@ -1,5 +1,6 @@
 [
     {
-        "url": "http://www.aluesarjat.fi/graph/Download.aspx?ssid=1402051202278&file=../DATABASE/ALUESARJAT_KAUPUNKIVERKKO/TULOTASO/VAESTON*;TULOT/A01HKIS_Vaestotulot.px"
+        "url": "http://www.aluesarjat.fi/graph/Download.aspx?ssid=1402051202278&file=../DATABASE/ALUESARJAT_KAUPUNKIVERKKO/TULOTASO/VAESTON*;TULOT/A01HKIS_Vaestotulot.px",
+        "encoding": "iso8859-1"
     }
 ]

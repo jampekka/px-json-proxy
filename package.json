@@ -1,11 +1,12 @@
 {
   "name": "px-json-proxy",
-  "description": "hello world test app",
+  "description": "Simple PC-Axis to JSON proxy API",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "express": "3.x",
     "q": "1.x.x",
-    "px": "0.1.x",
+    "px": "0.1.2",
+    "restify": "2.x.x",
+    "iconv-lite": "0.2.x"
   }
 }

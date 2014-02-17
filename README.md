@@ -9,16 +9,12 @@ of performance. If you query large datasets or otherwise like
 a more performant option, using the .px file using eg. px.js
 is a more suitable choice.
 
-## Status
-
-Pre-alpha. The architecture is a mess and everything is subject to change.
-
 ## Usage
 
 To get started, you need the Coffeescript compiler/interpreter and
 `npm`. Install dependencies with `npm install` and launch the server
 with `coffee px-json-proxy.coffee`. There should be something in
-http://localhost:9100/index.json after that.
+http://localhost:9100/resources.json after that.
 
 The datasets to export are configured in `data-sources.json` and
 server configuration (ie port number) is in `config.json`.
