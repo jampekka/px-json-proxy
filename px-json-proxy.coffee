@@ -1,7 +1,7 @@
 restify = require 'restify'
 Q = require 'q'
 http = require 'http'
-urllib = require 'url'
+requestlib = require 'request'
 path = require 'path'
 px = require 'px'
 iconv = require 'iconv-lite'
@@ -9,39 +9,42 @@ iconv = require 'iconv-lite'
 config = require './config.json'
 source_config = require './data-sources.json'
 
-geturl = (url, encoding='utf8') ->
-    deferred = Q.defer()
-    data = new Buffer(0)
-    req = http.get url, (response) ->
-        response.on "data", (chunk) ->
-            data = Buffer.concat [data, chunk]
-        response.on "end", ->
-            data = iconv.decode data, encoding
-            deferred.resolve [data, response]
+geturl = (url) ->
+    promise = Q.defer()
+    requestlib url, (error, response, body) ->
+        if error
+            promise.reject error
+            return
+        if response.statusCode != 200
+            promise.reject response.statusCode
+            return
 
-    req.on 'error', (e) ->
-        console.log e
-        deferred.reject e
-    return deferred.promise
+        promise.resolve [body, response]
+
+    return promise.promise
 
 class PxSource
     constructor: (@metadata, @data) ->
         @px = new px.Px @data
-        @metadata.title = @px.metadata.TITLE
+        @metadata.title = @px.metadata.TITLE.TABLE
         variables = {}
         for variable in @px.variables()
             variables[variable] = @px.values variable
-        @metadata.variables = variables
+        #@metadata.variables = variables
 
 load_sources = (source_config) ->
     handle_source = (source_spec) ->
         deferred = Q.defer()
-        data_promise = geturl source_spec.url, source_spec.encoding
+        data_promise = geturl source_spec.url
 
-        data_promise.done ([data, res]) ->
+        data_promise.then ([data, res]) ->
             fname = res.headers['content-disposition']
             fname = /.*;.*filename=([^ ]*)/.exec fname
-            fname = fname[1].split('.')
+            if not fname
+                fname = path.basename source_spec.url
+            else
+                fname = fname[1]
+            fname = fname.split('.')
             fname = fname[...fname.length-1].join('.')
             host = urllib.parse(source_spec.url).host
             resource_name = [host, fname].join "_"
@@ -52,16 +55,30 @@ load_sources = (source_config) ->
             resource = new PxSource metadata, data
             deferred.resolve [resource_name, resource]
         
-        data_promise.catch (error) ->
-            deferred.reject error
-
+        data_promise.fail (error) ->
+            deferred.reject [source_spec, error]
+        
         return deferred.promise
-
+    
     source_promises = source_config.map handle_source
     sources_promise = Q.defer()
-    Q.allSettled(source_promises).done (results) ->
+    n_fulfilled = 0
+    for promise in source_promises
+        promise.finally ->
+            n_fulfilled += 1
+            console.log "#{n_fulfilled}/#{source_promises.length} fetched"
+        promise.then ([name, resource]) ->
+            url = resource.metadata.origin_url
+            size = resource.data.length
+            console.log "#{name} #{url}: #{size} bytes"
+        promise.fail ([source_spec, error]) ->
+            console.log "Resource fetching failed (#{error}): " +
+                source_spec.url
+    
+    Q.allSettled(source_promises).then (results) ->
         sources = {}
         for result in results
+            continue if result.state == "rejected"
             [name, resource] = result.value
             sources[name] = resource
         sources_promise.resolve sources
@@ -119,23 +136,7 @@ setup_server = (sources) ->
     
     root_name = '/resources'
     px_server = new PxServer(sources, root_name, server)
+    console.log "Listening on #{config.server.port}"
     server.listen config.server.port
-###
-    route root_name, px_server.resources
-    
-    server.get '/resources.json', (req, res) ->
-        listing = {}
-        for name, resource of sources
-            listing[name]
-        res.send(JSON.stringify source_info)
-            
 
-    server.get '/resources/:name/json', boilerplate (source) ->
-        return JSON.stingify new px.Px source.data
-
-    server.get '/resources/:name/px', boilerplate (source) ->
-        return source.data
-    
-###
-
-load_sources(source_config).then setup_server
+load_sources(source_config).done setup_server
