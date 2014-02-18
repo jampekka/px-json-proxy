@@ -1,6 +1,6 @@
 restify = require 'restify'
 Q = require 'q'
-http = require 'http'
+urllib = require 'url'
 requestlib = require 'request'
 path = require 'path'
 px = require 'px'
