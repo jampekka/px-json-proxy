@@ -7,6 +7,7 @@
     "q": "1.x.x",
     "px": "0.1.2",
     "restify": "2.x.x",
-    "iconv-lite": "0.2.x"
+    "iconv-lite": "0.2.x",
+    "request": "2.33.0"
   }
 }

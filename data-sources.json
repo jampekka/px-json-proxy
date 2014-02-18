@@ -1,6 +1,590 @@
 [
-    {
-        "url": "http://www.aluesarjat.fi/graph/Download.aspx?ssid=1402051202278&file=../DATABASE/ALUESARJAT_KAUPUNKIVERKKO/TULOTASO/VAESTON*;TULOT/A01HKIS_Vaestotulot.px",
-        "encoding": "iso8859-1"
-    }
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tulotaso/asuntokuntien tulot/a01hki_asuntokuntien_tulot.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/asunto-ohjelma/a01hki_asunto_ohjelma.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/rakennustuotanto/a01hki_raktuot_kayttotark_2003-.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestoennusteet_sal/a01hkis_vaestoennuste.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tulotaso/vaeston tulot/a01hkis_vaestotulot.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/asuntokanta_sal/a01s_hki_askan_2005.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/asuntokunnat_sal/a01s_hki_asuntokunnat.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestonmuutokset_sal/a01s_hki_muuttoliike.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/perheet_sal/a01s_hki_perhetyypit.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/rakennuskanta_sal/a01s_hki_rakennuskanta.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyovoima_sal/a01s_hki_tyovoima_sukupuoli.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/tutkinnon_suorittaneet_sal/a01s_hki_vaesto_koulutusaste.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/graph/Download.aspx?ssid=1112201127496&file=../DATABASE/ALUESARJAT_KAUPUNKIVERKKO/VAESTO_SAL/VAKILUKU_SAL/A01S_HKI_Vakiluku.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/asuntotuotanto/a02hki_astuot_rahoitus_talotyyppi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/rakennustuotanto/a02hki_raktuot_kayttotark.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestoennusteet_sal/a02hki_vaestoennuste_ruotsi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/asuntokanta_sal/a02s_hki_askan_talotyyppi_hallintap_kotilanne.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/perheet_sal/a02s_hki_perhevaesto.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestonmuutokset_sal/a02s_hki_syntyneet.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/a02s_hki_tyopaikat_tol95.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyovoima_sal/a02s_hki_tyovoima_tol95.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vakiluku_sal/a02s_hki_vakiluku1962.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/asuntotuotanto/a03hki_astuot_rahoitus_huonelkm.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/rakennustuotanto/a03hki_raktuot_toimitilat.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/asuntokanta_sal/a03s_hki_askan_hallintaperuste_htyyppi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestonmuutokset_sal/a03s_hki_kuolleet.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/perheet_sal/a03s_hki_lapsiperheet_alle18.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/a03s_hki_tyopaikat_tol2002laaja.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vakiluku_sal/a03s_hki_vakiluku_aidinkieli.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/asuntotuotanto/a04hki_astuot_rahoitus_hallinta.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/asuntokanta_sal/a04s_hki_askan_talotyyppi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/perheet_sal/a04s_hki_lapsiperheet.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyovoima_sal/a04s_hkis_tyottomat_sukupuoli.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/a04s_hki_tyopaikat_tol95laaja.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/asuntotuotanto/a05hki_astuot_erityisryhmat.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/asuntokanta_sal/a05s_hki_askan_huonelkm.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/a05s_hki_tyopaikat_infoalatol2002.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/asuntokanta_sal/a06s_hki_askan_hallintaperuste.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/a06s_hki_tyopaikat_infoala.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/a07s_hki_tyopaikat_tol88.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/a08s_hki_tyopaikat_vanhaekl.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/asuntotuotanto/b01esp_asuntotuotanto_1997_.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/rakennustuotanto/b01esp_rakennustuotanto_1997_.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestoennusteet_sal/b01esps_vaestoennuste.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tulotaso/vaeston tulot/b01esps_vaestotulot.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/asuntokanta_sal/b01s_esp_askan_2005.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/asuntokunnat_sal/b01s_esp_asuntokunnat.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestonmuutokset_sal/b01s_esp_muuttoliike.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/perheet_sal/b01s_esp_perhetyypit.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/rakennuskanta_sal/b01s_esp_rakennuskanta.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyovoima_sal/b01s_esp_tyovoima_sukupuoli.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/tutkinnon_suorittaneet_sal/b01s_esp_vaesto_koulutusaste.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vakiluku_sal/b01s_esp_vakiluku.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestoennusteet_sal/b02esps_vaestoennuste_ruotsi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/asuntokanta_sal/b02s_esp_askan_talotyyppi_hallintap_kotilanne.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/perheet_sal/b02s_esp_perhevaesto.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestonmuutokset_sal/b02s_esp_syntyneet.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/b02s_esp_tyopaikat_tol95.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyovoima_sal/b02s_esp_tyovoima_tol95.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vakiluku_sal/b02s_esp_vakiluku1975.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/asuntokanta_sal/b03s_esp_askan_hallintaperuste_htyyppi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestonmuutokset_sal/b03s_esp_kuolleet.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/perheet_sal/b03s_esp_lapsiperheet_alle18.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/b03s_esp_tyopaikat_tol2002laaja.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vakiluku_sal/b03s_esp_vakiluku_aidinkieli.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/perheet_sal/b04s_esp_lapsiperheet.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/b04s_esp_tyopaikat_tol95laaja.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyovoima_sal/b04s_esp_tyottomat_sukupuoli.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/b05s_esp_tyopaikat_infoalatol2002.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/b06s_esp_tyopaikat_infoala.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/b07s_esp_tyopaikat_vanhaekl.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/asuntokanta_sal/c01s_van_askan_2005.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/asuntokunnat_sal/c01s_van_asuntokunnat.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestonmuutokset_sal/c01s_van_muuttoliike.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/perheet_sal/c01s_van_perhetyypit.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/rakennuskanta_sal/c01s_van_rakennuskanta.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyovoima_sal/c01s_van_tyovoima_sukupuoli.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/tutkinnon_suorittaneet_sal/c01s_van_vaesto_koulutusaste.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vakiluku_sal/c01s_van_vakiluku.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/asuntotuotanto/c01van_astuot_hper_rahoitus_talotyyppi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/rakennustuotanto/c01van_raktuot_kayttotark_2000_.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestoennusteet_sal/c01vans_vaestoennuste.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tulotaso/vaeston tulot/c01vans_vaestotulot.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/asuntokanta_sal/c02s_van_askan_talotyyppi_hallintap_kotilanne.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/perheet_sal/c02s_van_perhevaesto.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/rakennuskanta_sal/c02s_van_rakennuskanta_pinta-ala.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestonmuutokset_sal/c02s_van_syntyneet.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/c02s_van_tyopaikat_tol95.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyovoima_sal/c02s_van_tyovoima_tol95.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vakiluku_sal/c02s_van_vakiluku1971.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/asuntotuotanto/c02van_astuot_talotyyppi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/rakennustuotanto/c02van_rakennustuotanto_uusi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestoennusteet_sal/c02van_vaestoennuste_ruotsi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto_rakennuskanta_sal/asuntokanta_sal/c03s_van_askan_hallintaperuste_htyyppi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vaestonmuutokset_sal/c03s_van_kuolleet.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/perheet_sal/c03s_van_lapsiperheet_alle18.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/c03s_van_tyopaikat_tol2002laaja.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/vakiluku_sal/c03s_van_vakiluku_aidinkieli.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/asuntotuotanto/c03van_astuot_rahoitusm_huoneistott.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/rakennustuotanto/c03van_rakennustuotanto_vanha.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/vaesto_sal/perheet_sal/c04s_van_lapsiperheet.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyovoima_sal/c04s_vans_tyottomat_sukupuoli.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/c04s_van_tyopaikat_tol95laaja.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/asunto- ja rakennustuotanto/asuntotuotanto/c04van_astuot_vuokra_asunnot.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/c05s_van_tyopaikat_infoalatol2002.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/c06s_van_tyopaikat_infoala.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/aluesarjat_kaupunkiverkko/tyovoima_tyopaikat_sal/tyopaikat_sal/c07s_van_tyopaikat_vanhaekl.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/asunto_rakennuskanta/asuntokanta/hginseutu_ar_aa01_asuntokanta_rvuosi_talotyyppi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/asunto_rakennuskanta/asuntokanta/hginseutu_ar_aa02_asuntokanta_talot_halper_kayt.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/asunto_rakennuskanta/asuntokanta/hginseutu_ar_aa03_asuntokanta_halper_huoneistotyyppi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/asunto_rakennuskanta/rakennuskanta/hginseutu_ar_rr01_rakennukset_kayttark_rvuosi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/asuminen/asuntokunnat/hginseutu_as_ak01_asuntokunnat_talotyp_henkiloluku.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/asuminen/asuntokunnat/hginseutu_as_ak02_asuntokuntien_keskikoko.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/asuminen/asuntokunnat/hginseutu_as_ak03_asumisvaljyys_hloluku.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyomarkkinat/hginseutu_tt_tm01_tyottomyys_kk.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyomarkkinat/hginseutu_tt_tm02_paa_as_toiminta.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyomarkkinat/hginseutu_tt_tm03_koulutustaso.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyopaikat/hginseutu_tt_tp01b_tyopaikat_laajatol2002.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyopaikat/hginseutu_tt_tp01c_tyopaikat_laajatol1995.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyopaikat/hginseutu_tt_tp02_tyopaikat_1987_tol1995_2002.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyopaikat/hginseutu_tt_tp03b_tyopaikat_informaatiosektori_tol2002.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyopaikat/hginseutu_tt_tp03c_tyopaikat_informaatiosektori_tol1995.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyopaikat/hginseutu_tt_tp04_tyopaikat_tol1988.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyopaikat/hginseutu_tt_tp05_tyopaikat_vanhaekl.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyovoima/hginseutu_tt_tv01_tyovoima_ika.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyovoima/hginseutu_tt_tv02a_tyovoima_tol2008.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyovoima/hginseutu_tt_tv02b_tyovoima_tol1995_2002.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyovoima/hginseutu_tt_tv02c_tyovoima_tol1988.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/tyomarkkinat_tyossakaynti/tyovoima/hginseutu_tt_tv03_tyovoima_vanhaekl.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/muuttaneiden_tausta/hginseutu_va_mt01a_tulomuuttajatkoulutussukup.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/muuttaneiden_tausta/Hginseutu_VA_MT01b_LahtomuuttajatKoulutusSukup.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/perheet/hginseutu_va_pe01_perheet_perhetyyppi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/perheet/hginseutu_va_pe02_lapsiperheet_lapsiluku.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/perheet/hginseutu_va_pe03_lapsiperheet_perhetyyppi.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/perheet/hginseutu_va_pe04_perhevaesto.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/vaestoennusteet/hginseutu_va_ve02_vaestoennuste_kehys.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/vaestoennusteet/hginseutu_va_ve03_vaestoennuste_kieli.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/vaestomuutokset/hginseutu_va_vm01_vaestonmuutosten_yhdistelma.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/vaestomuutokset/hginseutu_va_vm02_muuttoliike_alueittain.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/vaestomuutokset/hginseutu_va_vm03_muuttoliike_ikaryhmittain.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/vaestomuutokset/hginseutu_va_vm04_syntyneet.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/vaestomuutokset/hginseutu_va_vm05_kuolleet.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/vaestorakenne/hginseutu_va_vr01_vakiluku_ika.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/vaestorakenne/hginseutu_va_vr02_vakiluku_aidinkieli3.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/vaestorakenne/hginseutu_va_vr03_vakiluku_ika_sukup_aidinkieli3_ssaaty.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/vaestorakenne/hginseutu_va_vr04_vakiluku_aidinkieli_ika.px",
+    "encoding": "iso8859-1"
+  },
+  {
+    "url": "http://www.aluesarjat.fi/database/seutusarjat/vaesto/vaestorakenne/Hginseutu_VA_VR05_Vakiluku_kansalaisuus_sp.px",
+    "encoding": "iso8859-1"
+  }
 ]
