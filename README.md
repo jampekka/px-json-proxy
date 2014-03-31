@@ -1,5 +1,8 @@
 # Simple PC-Axis to JSON REST-API server
 
+**NOTE** Not developed, see https://github.com/jampekka/statcubeserver
+instead.
+
 A simple server written in Coffeescript for node.js that
 reads a PC-Axis .px file using px.js and serves it over a
 simple REST API producing JSON records.
